@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_dd3e5358a5f34c38bc36de409a4727ba {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_dd3e5358a5f34c38bc36de409a4727ba" ></div>
+        
+</body>
+<script>    
+    
+            var map_dd3e5358a5f34c38bc36de409a4727ba = L.map(
+                "map_dd3e5358a5f34c38bc36de409a4727ba",
+                {
+                    center: [45.372, -121.6972],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 3,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_87347cf6b2c2407990dab2f5408ae508 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_dd3e5358a5f34c38bc36de409a4727ba);
+        
+    
+            var marker_97619f0bba804b1ba92c0ea1de2d6c96 = L.marker(
+                [36.5786, -118.292],
+                {}
+            ).addTo(map_dd3e5358a5f34c38bc36de409a4727ba);
+        
+    
+        var popup_126cd75bfa3f442ab5170532aebfd716 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_08f68c7e3957435faa6cea459cd02d7d = $(`<div id="html_08f68c7e3957435faa6cea459cd02d7d" style="width: 100.0%; height: 100.0%;"><b>Mount Whitney</b></div>`)[0];
+            popup_126cd75bfa3f442ab5170532aebfd716.setContent(html_08f68c7e3957435faa6cea459cd02d7d);
+        
+
+        marker_97619f0bba804b1ba92c0ea1de2d6c96.bindPopup(popup_126cd75bfa3f442ab5170532aebfd716)
+        ;
+
+        
+    
+    
+            var marker_f3f1c6253f994d2cbc05934613439d31 = L.marker(
+                [36.5786, -118.292],
+                {}
+            ).addTo(map_dd3e5358a5f34c38bc36de409a4727ba);
+        
+    
+        var popup_6c58108023884515956e39363c9f9805 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4f4fe23a77344ab7a71c9d96754082ef = $(`<div id="html_4f4fe23a77344ab7a71c9d96754082ef" style="width: 100.0%; height: 100.0%;"><b>Mount Whitney</b></div>`)[0];
+            popup_6c58108023884515956e39363c9f9805.setContent(html_4f4fe23a77344ab7a71c9d96754082ef);
+        
+
+        marker_f3f1c6253f994d2cbc05934613439d31.bindPopup(popup_6c58108023884515956e39363c9f9805)
+        ;
+
+        
+    
+    
+            var marker_841c551bfc4a490ab6fb71fb773e5bf7 = L.marker(
+                [36.5786, -118.292],
+                {}
+            ).addTo(map_dd3e5358a5f34c38bc36de409a4727ba);
+        
+    
+        var popup_6c4540ca36a94e71bb0aa47106b73b2d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2eb93b7c48114f20b3576d1afc0dfa79 = $(`<div id="html_2eb93b7c48114f20b3576d1afc0dfa79" style="width: 100.0%; height: 100.0%;"><b>Mount Whitney</b></div>`)[0];
+            popup_6c4540ca36a94e71bb0aa47106b73b2d.setContent(html_2eb93b7c48114f20b3576d1afc0dfa79);
+        
+
+        marker_841c551bfc4a490ab6fb71fb773e5bf7.bindPopup(popup_6c4540ca36a94e71bb0aa47106b73b2d)
+        ;
+
+        
+    
+    
+            var marker_f6ea9f56785541d89fe2dd897924aeb5 = L.marker(
+                [63.069, -151.0063],
+                {}
+            ).addTo(map_dd3e5358a5f34c38bc36de409a4727ba);
+        
+    
+        var popup_57acacd35f874752af3a2820b8bd5571 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4bc8362210af41089ff3c1c7e436305b = $(`<div id="html_4bc8362210af41089ff3c1c7e436305b" style="width: 100.0%; height: 100.0%;"><i>Denali</i></div>`)[0];
+            popup_57acacd35f874752af3a2820b8bd5571.setContent(html_4bc8362210af41089ff3c1c7e436305b);
+        
+
+        marker_f6ea9f56785541d89fe2dd897924aeb5.bindPopup(popup_57acacd35f874752af3a2820b8bd5571)
+        ;
+
+        
+    
+    
+            var marker_f8e5c52ee4f14bbaa388fff1d669b5e7 = L.marker(
+                [63.069, -151.0063],
+                {}
+            ).addTo(map_dd3e5358a5f34c38bc36de409a4727ba);
+        
+    
+        var popup_b740354d6f9f4e369aacb53abef64ce3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_325c95cfd0444fc8b5c3669e317d3bd8 = $(`<div id="html_325c95cfd0444fc8b5c3669e317d3bd8" style="width: 100.0%; height: 100.0%;"><i>Denali</i></div>`)[0];
+            popup_b740354d6f9f4e369aacb53abef64ce3.setContent(html_325c95cfd0444fc8b5c3669e317d3bd8);
+        
+
+        marker_f8e5c52ee4f14bbaa388fff1d669b5e7.bindPopup(popup_b740354d6f9f4e369aacb53abef64ce3)
+        ;
+
+        
+    
+</script>
